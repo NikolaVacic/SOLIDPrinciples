@@ -1,0 +1,7 @@
+C:\Users\Nikola\Desktop\Nordeus\Materijal\1. Software Design principi\Solid principles code\SingleResponsiblity\SingleResponsiblity\bin\Debug\SingleResponsiblity.exe.config
+C:\Users\Nikola\Desktop\Nordeus\Materijal\1. Software Design principi\Solid principles code\SingleResponsiblity\SingleResponsiblity\bin\Debug\SingleResponsiblity.exe
+C:\Users\Nikola\Desktop\Nordeus\Materijal\1. Software Design principi\Solid principles code\SingleResponsiblity\SingleResponsiblity\bin\Debug\SingleResponsiblity.pdb
+C:\Users\Nikola\Desktop\Nordeus\Materijal\1. Software Design principi\Solid principles code\SingleResponsiblity\SingleResponsiblity\obj\Debug\SingleResponsiblity.csprojAssemblyReference.cache
+C:\Users\Nikola\Desktop\Nordeus\Materijal\1. Software Design principi\Solid principles code\SingleResponsiblity\SingleResponsiblity\obj\Debug\SingleResponsiblity.csproj.CoreCompileInputs.cache
+C:\Users\Nikola\Desktop\Nordeus\Materijal\1. Software Design principi\Solid principles code\SingleResponsiblity\SingleResponsiblity\obj\Debug\SingleResponsiblity.exe
+C:\Users\Nikola\Desktop\Nordeus\Materijal\1. Software Design principi\Solid principles code\SingleResponsiblity\SingleResponsiblity\obj\Debug\SingleResponsiblity.pdb
