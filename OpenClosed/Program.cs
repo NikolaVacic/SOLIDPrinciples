@@ -37,8 +37,9 @@ namespace OpenClosed
 
             AreaCalculator AC = new AreaCalculator(nizFigura);
 
-            Console.WriteLine("Zbir povrsina figura je " + AC.area());
+            SumCalculatorOutputter sco = new SumCalculatorOutputter(AC);
 
+            sco.OutputToConsole();
             
             
 

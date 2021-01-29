@@ -1,0 +1,7 @@
+C:\Users\Nikola\Desktop\Nordeus\Materijal\1. Software Design principi\Solid principles code\SingleResponsiblity\LiskovSubstitute\bin\Debug\LiskovSubstitute.exe.config
+C:\Users\Nikola\Desktop\Nordeus\Materijal\1. Software Design principi\Solid principles code\SingleResponsiblity\LiskovSubstitute\bin\Debug\LiskovSubstitute.exe
+C:\Users\Nikola\Desktop\Nordeus\Materijal\1. Software Design principi\Solid principles code\SingleResponsiblity\LiskovSubstitute\bin\Debug\LiskovSubstitute.pdb
+C:\Users\Nikola\Desktop\Nordeus\Materijal\1. Software Design principi\Solid principles code\SingleResponsiblity\LiskovSubstitute\obj\Debug\LiskovSubstitute.csprojAssemblyReference.cache
+C:\Users\Nikola\Desktop\Nordeus\Materijal\1. Software Design principi\Solid principles code\SingleResponsiblity\LiskovSubstitute\obj\Debug\LiskovSubstitute.csproj.CoreCompileInputs.cache
+C:\Users\Nikola\Desktop\Nordeus\Materijal\1. Software Design principi\Solid principles code\SingleResponsiblity\LiskovSubstitute\obj\Debug\LiskovSubstitute.exe
+C:\Users\Nikola\Desktop\Nordeus\Materijal\1. Software Design principi\Solid principles code\SingleResponsiblity\LiskovSubstitute\obj\Debug\LiskovSubstitute.pdb

@@ -40,7 +40,7 @@ namespace SingleResponsiblity
         // Ukoliko bi zeleli da ova klasa radi output onda bi prekrsili princip SingleResponsiblity
 
         // Ova funkcija bi prekrsila princip SingleResponsibility principa jer ova klasa ima zadatak da samo
-        // racuna povrsinu, ne da daje output. Sta ako korisnik zeli da output bude u html formatu ili JSON.
+        // racuna povrsinu, ne da daje output. Sta ako korisnik zeli da output bude u fajlu, a ne u konzoli
         public void output() {
 
             Console.WriteLine("Zbir povrsina figura iz niza je:" + this.area());

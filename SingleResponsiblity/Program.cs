@@ -39,11 +39,11 @@ namespace SingleResponsiblity
 
             AreaCalculator AC = new AreaCalculator(nizFigura);
 
-            Console.WriteLine(AC.area());
-
             SumCalculatorOutputter sco = new SumCalculatorOutputter(AC);
+
+            sco.OutputToConsole();
+            sco.OutputToFile();
             
-            sco.HTML();
 
         }
     }

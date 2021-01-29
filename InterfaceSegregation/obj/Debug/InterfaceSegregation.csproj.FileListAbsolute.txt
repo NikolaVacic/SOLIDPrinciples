@@ -1,0 +1,7 @@
+C:\Users\Nikola\Desktop\Nordeus\Materijal\1. Software Design principi\Solid principles code\SingleResponsiblity\InterfaceSegregation\bin\Debug\InterfaceSegregation.exe.config
+C:\Users\Nikola\Desktop\Nordeus\Materijal\1. Software Design principi\Solid principles code\SingleResponsiblity\InterfaceSegregation\bin\Debug\InterfaceSegregation.exe
+C:\Users\Nikola\Desktop\Nordeus\Materijal\1. Software Design principi\Solid principles code\SingleResponsiblity\InterfaceSegregation\bin\Debug\InterfaceSegregation.pdb
+C:\Users\Nikola\Desktop\Nordeus\Materijal\1. Software Design principi\Solid principles code\SingleResponsiblity\InterfaceSegregation\obj\Debug\InterfaceSegregation.csprojAssemblyReference.cache
+C:\Users\Nikola\Desktop\Nordeus\Materijal\1. Software Design principi\Solid principles code\SingleResponsiblity\InterfaceSegregation\obj\Debug\InterfaceSegregation.csproj.CoreCompileInputs.cache
+C:\Users\Nikola\Desktop\Nordeus\Materijal\1. Software Design principi\Solid principles code\SingleResponsiblity\InterfaceSegregation\obj\Debug\InterfaceSegregation.exe
+C:\Users\Nikola\Desktop\Nordeus\Materijal\1. Software Design principi\Solid principles code\SingleResponsiblity\InterfaceSegregation\obj\Debug\InterfaceSegregation.pdb

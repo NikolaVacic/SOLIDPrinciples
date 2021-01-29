@@ -17,12 +17,13 @@ namespace SingleResponsiblity
             this.ac = other;
         }
 
-        public void JSON() { 
-            // implementirati logiku ako zelimo JSON output
+        public void OutputToConsole() {
+            Console.WriteLine($"Suma = {ac.area()}");
         }
 
-        public void HTML() { 
-            // implementirati logiku ako zelimo HTML output
+        public void OutputToFile() {
+
+            System.IO.File.WriteAllText(@"C:\Users\Nikola\Desktop\Nordeus\Materijal\1. Software Design principi\Solid principles code\SingleResponsiblity\SingleResponsiblity\output.txt", (ac.area()).ToString());
         }
 
     }
