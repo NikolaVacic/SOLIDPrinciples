@@ -1,0 +1,4 @@
+Svi primeri iz ove solucije su uzeti sa webstranice: 
+https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
+
+

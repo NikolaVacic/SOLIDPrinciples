@@ -1,33 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace InterfaceSegregation
+﻿namespace InterfaceSegregation
 {
-    class Cube : IShape3D, ManageInterfaces
+    class Cube : Shape3DInterface
     {
-        private double a;
+
+        public double A { get; set; }
 
         public Cube(double a)
         {
-            this.a = a;
-        }
-
-        public double Calculate()
-        {
-            return this.Volume();
-        }
-
-        public double getA()
-        {
-            return this.a;
+            this.A = a;
         }
 
         public double Volume()
         {
-            return a * a * a;
+            return A * A * A;
+        }
+
+        public double Area()
+        {
+            return 6 * A * A;
         }
     }
+
 }

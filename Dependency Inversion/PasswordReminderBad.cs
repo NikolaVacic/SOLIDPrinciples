@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-// ova klasa je high level modul
+﻿// ova klasa je high level modul
 
 // Ova implementacija je losa jer sad ova klasa zavisi od MySQLConnectionBad(lowlevel) klase.
 

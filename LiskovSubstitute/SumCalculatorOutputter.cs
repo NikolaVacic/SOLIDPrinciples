@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-// ovom klasom izvalicmo output iz AreaCalculatora i time ne krsimo SingleResp princip.
 
 namespace LiskovSubstitute
 {
@@ -18,7 +13,7 @@ namespace LiskovSubstitute
         }
 
         public void OutputToConsole() {
-            Console.WriteLine(ac.Sum());
+            Console.WriteLine($"Suma = {ac.Sum()}");
         }
 
         public void OutputToFile() {

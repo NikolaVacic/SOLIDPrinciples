@@ -1,23 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-// Svi primeri ovih projekata su uzeti sa web stranice:
-// https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
+﻿using System.Collections.Generic;
 
 
+//! OpenClosed princip je drugi princip u SOLID akronimu
+//! Ovaj princip kaze da klase moraju biti otvorene za prosirivanje ali zatvorene za modifikaciju.
 
-// OpenClosed princip je drugi princip u SOLID akronimu
-// Ovaj princip kaze da klase moraju biti otvorene za prosirivanje ali zatvorene za modifikaciju.
+/*
+   Nastavak primera iz SingleResponsibility projekta
+   Ici u AreaCalculator klasu da bi se video princip na delu
 
-// Nastavak primera iz SingleResponsibility projekta
-// Ici u AreaCalculator klasu da bi se video princip na delu
-
-// Napomena dolazim iz C++ background-a i tek sam poceo uciti C# tako da ovaj kod verovatno lici na C++ i verovatno
-// ne postujem sve C# standarde
-
+   Napomena dolazim iz C++ background-a i tek sam poceo uciti C# tako da ovaj kod verovatno lici na C++ i verovatno
+   ne postujem sve C# standarde
+*/
 
 namespace OpenClosed
 {

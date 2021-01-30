@@ -1,14 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using static System.Math;
 
-
-// nad ovom klasom pokazujemo princip Single Responsiblity
-// ova klasa ce racunati povrsinu niza Shape-ova, ali ova klasa ne treba outputovati izrazunatu povrsinu
-
+//! Ova klasa racuna povrsinu svih 2D figura u nizu. 
 
 namespace OpenClosed
 {
@@ -25,41 +19,37 @@ namespace OpenClosed
         // Problem sa ovom funkcijom je taj sto ako zelimo da omogucimo nove figure kao npr kvadrat ili trougao
         // moramo menjati dosta logike unutar funkcije. Moramo dodavati nove if-ove itd...
 
-        // Necu zakomentarisati ovu funckiju vec cu je samo nazvati areaWrong
-        public double areaWrong()
+        // Necu zakomentarisati ovu funckiju vec cu je samo nazvati SumWrong
+        public double SumWrong()
         {
             double sum = 0;
 
             foreach (IShape shape in niz)
             {
                 if (shape.GetType() == typeof(Square))
-                    sum += Pow(((Square)shape).getA(), 2);
+                    sum += Pow(((Square)shape).A, 2);
                 if (shape.GetType() == typeof(Circle))
-                    sum += Math.PI * Pow(((Circle)shape).getR(), 2);
+                    sum += Math.PI * Pow(((Circle)shape).Radius, 2);
             }
             return sum;
         }
 
         // Ovako bi trebalo da izgleda funkcija
-        public double area()
+        public double Sum()
         {
             double sum = 0;
 
-            foreach (IShape shape in niz)
+            foreach (Shape2DInterface shape in niz)
             {
-                // mnogo je bolje deklarisati apstraktnu metodu unutar IShape apstraktne klase/interfejsa i onda
-                // pozivati tu metodu nad svakom figurom niza, a logiku za racunanje povrsine uraditi unutar klase.
-                sum += shape.area();
-            
-                // time ako zelimo da prosirimo IShape klasu nekim novom figurom nema potrebe menjati AreaCalculator klasu
-            }
+                //! Mnogo je bolje kreirati interfejs sa metodamo koje zelimo omoguciti i obezbediti logiku unutar 
+                //! klasa koje implementiraju taj interfejs
+                //! time ako zelimo da prosirimo IShape klasu nekim novom figurom nema potrebe menjati AreaCalculator klasu
 
+                sum += shape.Area();
+
+
+            }
             return sum;
         }
-
-
-
-
-
     }
 }

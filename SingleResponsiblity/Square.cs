@@ -1,23 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+//! Square nasledjuje IShape da bi mogli kreirati listu objekata tipa IShape u koje cemo smestati i krugove i kvadrate
 
 namespace SingleResponsiblity
 {
-    
-    // Square nasledjuje Shape da bih mogao da kreiram niz objekata tipa Shape u koji cu smestati i Circle-e i Square-ove
-
     class Square : IShape
     {
-        private double a;
+        public double A { get; set; }
 
         public Square(double side)
         {
-            this.a = side;
+            this.A = side;
         }
 
-        public double getA() { return a; }
     }
 }

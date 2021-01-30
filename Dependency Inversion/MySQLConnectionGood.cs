@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 // Database Connection Interface ima connect metod i ova klasa treba implementirati taj interfejs
 

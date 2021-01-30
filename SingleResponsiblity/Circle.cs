@@ -1,23 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+//! Circle nasledjuje IShape da bi mogli kreirati listu objekata tipa IShape u koje cemo smestati i krugove i kvadrate
 
 namespace SingleResponsiblity
 {
-
-    // Circle nasledjuje Shape da bih mogao da kreiram niz objekata tipa Shape u koji cu smestati i Circle-e i Square-ove
-
     class Circle : IShape
     {
-        private double radius;
+        public double Radius { get; set; }
 
         public Circle(double r)
         {
-            this.radius = r;
+            this.Radius = r;
         }
 
-        public double getR() { return radius; }
     }
 }

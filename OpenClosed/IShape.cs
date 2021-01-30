@@ -1,17 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-// Potreban je jedan interfejs ili apstraktna klasa.
-
+﻿//! Imamo jednu apstraktnu klasu IShape koju ce sve geometrijske figure, kako 2D tako i 3D, kasnije, naslediti
 
 namespace OpenClosed
 {
-    abstract class IShape
+    interface IShape
     {
-
-        public abstract double area();
+           
     }
 }

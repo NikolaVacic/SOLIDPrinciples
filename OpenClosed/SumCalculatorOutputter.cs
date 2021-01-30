@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 // ovom klasom izvalicmo output iz AreaCalculatora i time ne krsimo SingleResp princip.
 
@@ -18,12 +14,12 @@ namespace OpenClosed
         }
 
         public void OutputToConsole() {
-            Console.WriteLine($"Suma = {ac.area()}");
+            Console.WriteLine($"Suma = {ac.Sum()}");
         }
 
         public void OutputToFile() {
 
-            System.IO.File.WriteAllText(@"C:\Users\Nikola\Desktop\Nordeus\Materijal\1. Software Design principi\Solid principles code\SingleResponsiblity\OpenClosed\output.txt", (ac.area()).ToString());
+            System.IO.File.WriteAllText(@"C:\Users\Nikola\Desktop\Nordeus\Materijal\1. Software Design principi\Solid principles code\SingleResponsiblity\OpenClosed\output.txt", (ac.Sum()).ToString());
         }
 
     }

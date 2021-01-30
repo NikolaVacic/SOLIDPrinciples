@@ -1,38 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+//! Square nasledjuje IShape da bi mogli kreirati listu objekata tipa IShape u koje cemo smestati i krugove i kvadrate
 
 namespace InterfaceSegregation
 {
-    
-    // Square implementira IShape da bih mogao da kreiram niz objekata tipa IShape u koji cu smestati 
-    // i Circle-e i Square-ove
-
-    class Square : IShape, ManageInterfaces
+    class Square : IShape, Shape2DInterface
     {
-        private double a;
+        public double A { get; set; }
 
         public Square(double side)
         {
-            this.a = side;
+            this.A = side;
         }
 
-        public double getA() { return a; }
-
-        public double area()
+        public double Area()
         {
-            return a * a;
+            return A * A;
         }
-
-        public double Perimeter() {
-            return 4 * a;
-        }
-
-        public double Calculate()
-        {
-            return this.area();
-        }
+        
     }
 }

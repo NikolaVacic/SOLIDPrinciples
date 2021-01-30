@@ -1,32 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+//! Square nasledjuje IShape da bi mogli kreirati listu objekata tipa IShape u koje cemo smestati i krugove i kvadrate
 
 namespace LiskovSubstitute
 {
-    
-    // Square nasledjuje Shape da bih mogao da kreiram niz objekata tipa Shape u koji cu smestati i Circle-e i Square-ove
-
-    class Square : IShape
+    class Square : IShape, Shape2DInterface
     {
-        private double a;
+        public double A { get; set; }
 
         public Square(double side)
         {
-            this.a = side;
+            this.A = side;
         }
 
-        public double getA() { return a; }
-
-        public override double area()
+        public double Area()
         {
-            return a * a;
+            return A * A;
         }
 
-        public override double volume() {
-            return 4 * a;
+        public double Perimeter()
+        {
+            return 4 * A;
         }
     }
 }

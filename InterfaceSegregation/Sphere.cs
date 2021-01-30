@@ -1,28 +1,25 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace InterfaceSegregation
 {
-    class Sphere : IShape3D, ManageInterfaces
+    class Sphere : Shape3DInterface
     {
-        private double radius;
+        public double Radius { get; set; }
 
         public Sphere(double r)
         {
-            this.radius = r;
+            this.Radius = r;
         }
 
-        public double Calculate()
+        public double Area()
         {
-            return this.Volume();
+            return 4 * Math.PI * Radius * Radius;
         }
+        
 
         public double Volume()
         {
-            return Math.PI * Math.Pow(radius, 3) * (4.0 / 3.0);
+            return Math.PI * Math.Pow(Radius, 3) * (4.0 / 3.0);
         }
     }
 }
